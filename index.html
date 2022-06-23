@@ -17,6 +17,13 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather</title>
@@ -25,23 +32,42 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app-body">
-          <div class="overview">
-            <h1>Tokyo</h1>
-            <ul>
-              <li>icon</li>
-              <li>15°</li>
-              <li>Broken clouds</li>
-            </ul>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card w-75">
+                <div class="card-body">
+                  <div class="card-overview" id="overview">
+                    <h1>Tokyo</h1>
+                    <ul>
+                      <li>icon</li>
+                      <li><strong> 15°</strong></li>
+                      <li>Broken clouds</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card w-75 h-100">
+                <div class="card-body">
+                  <div class="card-description" id="descriptions">
+                    <ul>
+                      <li>Feels like 13°</li>
+                      <li>Wind 3km/h</li>
+                      <li>Humidity 78%</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card w-75 h-100">
+                <div class="card-body">
+                  <div class="card-clock" id="clock">21:00</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="descriptions">
-            <ul>
-              <li>feels like</li>
-              <li>wind</li>
-              <li>humidity</li>
-              <li>pressure</li>
-            </ul>
-          </div>
-          <div class="clock">21:00</div>
         </div>
         <small> Open source code by Hajnalka Kovacs </small>
       </div>

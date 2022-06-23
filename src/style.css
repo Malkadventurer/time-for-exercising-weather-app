@@ -2,4 +2,11 @@ body {
   background: no-repeat fixed center;
   background-image: url(background.jpg);
   background-size: cover;
+  font-family: "Roboto Slab", serif;
+}
+.weather-app-wrapper {
+  margin: 20px;
+}
+.card {
+  background-color: rgba(218, 213, 223, 0.582);
 }
