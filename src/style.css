@@ -3,10 +3,41 @@ body {
   background-image: url(background.jpg);
   background-size: cover;
   font-family: "Roboto Slab", serif;
+  color: #46404d;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 .weather-app-wrapper {
-  margin: 20px;
+  margin: 50px;
 }
 .card {
   background-color: rgba(218, 213, 223, 0.582);
+  --bs-card-border-color: rgb(0 0 0 / 0%);
+  --bs-card-border-radius: 1.3rem;
+}
+
+.description-list {
+  padding-top: 2.1rem;
+}
+.date {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+.time {
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+#overview,
+#descriptions,
+#clock,
+#date {
+  text-align: center;
+  line-height: 2rem;
+}
+.git-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #46404d;
 }

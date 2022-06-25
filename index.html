@@ -37,7 +37,7 @@
               <div class="card w-75">
                 <div class="card-body">
                   <div class="card-overview" id="overview">
-                    <h1>Tokyo</h1>
+                    <h1 class="card-title">Tokyo</h1>
                     <ul>
                       <li>icon</li>
                       <li><strong> 15°</strong></li>
@@ -50,11 +50,11 @@
             <div class="col-sm-4">
               <div class="card w-75 h-100">
                 <div class="card-body">
-                  <div class="card-description" id="descriptions">
-                    <ul>
-                      <li>Feels like 13°</li>
-                      <li>Wind 3km/h</li>
-                      <li>Humidity 78%</li>
+                  <div class="card-description h-100" id="descriptions">
+                    <ul class="description-list">
+                      <li>Feels like: 13°</li>
+                      <li>Wind: 3km/h</li>
+                      <li>Humidity: 78%</li>
                     </ul>
                   </div>
                 </div>
@@ -63,13 +63,21 @@
             <div class="col-sm-4">
               <div class="card w-75 h-100">
                 <div class="card-body">
-                  <div class="card-clock" id="clock">21:00</div>
+                  <ul>
+                    <li class="card-date date" id="date">Friday</li>
+                    <li class="card-clock time" id="clock">21:00</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <small> Open source code by Hajnalka Kovacs </small>
+        <small>
+          <a href="https://github.com/Malkadventurer" class="git-link">
+            Open source code
+          </a>
+          by Hajnalka Kovacs
+        </small>
       </div>
     </div>
     <script src="src/app.js"></script>
