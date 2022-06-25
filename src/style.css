@@ -10,7 +10,7 @@ ul {
   padding: 0;
 }
 .weather-app-wrapper {
-  margin: 50px;
+  margin: 100px;
 }
 .card {
   background-color: rgba(218, 213, 223, 0.582);
@@ -22,12 +22,15 @@ ul {
   padding-top: 2.1rem;
 }
 .date {
-  padding-top: 1rem;
+  padding-top: 4rem;
   font-size: 2rem;
 }
 .time {
   padding-top: 2rem;
   font-size: 3rem;
+}
+#temperature {
+  font-size: 1.5rem;
 }
 #overview,
 #descriptions,
@@ -35,6 +38,12 @@ ul {
 #date {
   text-align: center;
   line-height: 2rem;
+}
+.description-list {
+  padding-top: 4rem;
+}
+li:first-letter {
+  text-transform: capitalize;
 }
 .git-link {
   text-decoration: none;
