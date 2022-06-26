@@ -45,7 +45,7 @@ ul {
 .card-body:hover {
   background-color: #948b9d4a;
   border-radius: 1.3rem;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .description-list {
   padding-top: 2.1rem;
