@@ -9,8 +9,33 @@ ul {
   list-style: none;
   padding: 0;
 }
-.weather-app-wrapper {
-  margin: 100px;
+.header {
+  margin-top: 20px;
+}
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+.btn-dark {
+  --bs-btn-color: #72667f;
+  --bs-btn-bg: #b4aeba94;
+  --bs-btn-border-color: #b4aeba94;
+  --bs-btn-hover-color: #72667f;
+  --bs-btn-hover-bg: #dad5df94;
+  --bs-btn-hover-border-color: #dad5df94;
+  --bs-btn-focus-shadow-rgb: 114, 102, 127;
+  --bs-btn-active-color: #72667f;
+  --bs-btn-active-bg: #dad5df94;
+  --bs-btn-active-border-color: #dad5df94;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-gradient: none;
+}
+#search-box {
+  width: 400px;
+  background-color: #dad5df94;
+  border: 1px solid #948b9d94;
+}
+.container {
+  margin: 100px auto;
 }
 .card {
   background-color: rgba(218, 213, 223, 0.582);
